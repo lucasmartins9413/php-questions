@@ -1,0 +1,55 @@
+Imprima números de 1 a 10 usando for.
+Imprima números de 10 a 1 (decrescente) usando while.
+Imprima apenas números pares de 1 a 20 usando for.
+Imprima apenas números ímpares de 1 a 20 usando while.
+Calcule a soma de números de 1 a 50 e exiba o resultado.
+Calcule a média de 5 números fornecidos pelo usuário.
+Imprima a tabuada do 5 (de 1 a 10).
+Crie uma contagem regressiva de 10 a 0 e exiba "Lançar!" quando chegar a zero.
+Calcule o fatorial de um número (ex.: fatorial de 5 é 5 * 4 * 3 * 2 * 1).
+Verifique se um número é primo (divisível apenas por 1 e ele mesmo).
+Exercícios Intermediários
+Calcule a soma dos números pares de 1 a 100.
+Calcule a soma dos números ímpares de 1 a 100.
+Imprima os múltiplos de 3 de 1 a 50.
+Encontre o maior número em um array de números.
+Encontre o menor número em um array de números.
+Calcule a média de um array de números usando foreach.
+Conte quantos elementos de um array são positivos e quantos são negativos.
+Verifique se um número existe em um array.
+Inverta os elementos de um array e exiba o resultado.
+Remova números duplicados de um array.
+Exercícios de Manipulação de Strings
+Conte o número de vogais em uma string.
+Conte o número de consoantes em uma string.
+Inverta uma string (ex.: "PHP" se torna "PHP").
+Verifique se uma string é um palíndromo (ex.: "ana" é um palíndromo).
+Substitua todas as ocorrências de uma palavra em uma string (ex.: "mundo" por "PHP").
+Conte o número de palavras em uma frase.
+Encontre a posição da primeira ocorrência de uma palavra em uma string.
+Converta uma string para maiúsculas.
+Converta uma string para minúsculas.
+Substitua espaços em uma string por traços.
+Exercícios com Arrays Associativos
+Crie um array associativo de produtos e preços e calcule o total dos preços.
+Encontre o produto mais caro e o mais barato em um array associativo de produtos e preços.
+Ordene um array associativo por valores de forma crescente.
+Ordene um array associativo por chaves em ordem alfabética.
+Some os valores de um array associativo.
+Exercícios de Lógica e Condicional
+Exiba os números de 1 a 50, substituindo múltiplos de 3 por "Fizz", múltiplos de 5 por "Buzz" e múltiplos de ambos por "FizzBuzz".
+Crie uma função que determine se um número é par ou ímpar.
+Escreva uma função para verificar se um ano é bissexto.
+Crie uma função que encontre o maior número em um array.
+Crie uma função que retorne a soma dos dígitos de um número.
+Exercícios Avançados
+Gere os 10 primeiros números da sequência de Fibonacci.
+Implemente um código que verifique se uma senha atende aos requisitos (mínimo 8 caracteres, uma letra maiúscula, uma minúscula e um número).
+Crie uma função que calcule o MDC (máximo divisor comum) de dois números.
+Crie uma função que calcule o MMC (mínimo múltiplo comum) de dois números.
+Implemente um algoritmo de ordenação (como Bubble Sort ou Selection Sort) para ordenar um array.
+Crie um sistema de cadastro de usuários com arrays associativos que armazene nome, idade e e-mail.
+Implemente uma função que verifique se um número é perfeito (um número perfeito é igual à soma de seus divisores próprios).
+Crie uma função que gere um número aleatório entre 1 e 100 e permita que o usuário tente adivinhar. Informe se o palpite é muito alto, baixo ou correto.
+Desenvolva uma função que converta uma temperatura de Celsius para Fahrenheit e vice-versa.
+Crie um programa que simule uma calculadora (adição, subtração, multiplicação, divisão) e permita ao usuário selecionar a operação desejada e inserir dois números.
