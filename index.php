@@ -107,7 +107,9 @@ echo "<br><br>";
 echo "O fatorial de ". $i ." é: " . $calc;
 
 echo "<br><br>";
-echo "<strong>Verifique se um número é primo (divisível apenas por 1 e ele mesmo):</strong>";
+echo "<strong>9) Verifique se um número é primo (divisível apenas por 1 e ele mesmo):</strong>";
+echo "<br><br>";
+
 
 function isPrime($number) {
     if ($number <= 1) return false;
@@ -120,11 +122,38 @@ function isPrime($number) {
     return true;
 }
 
-$number = 2;
-if (isPrime($number)) {
-    echo "$number é um número primo.";
-} else {
-    echo "$number não é um número primo.";
+if ($_SERVER['REQUEST_METHOD'] === 'POST' && isset($_POST['valor_numero'])) {
+    $number = $_POST['valor_numero'];
+    if (is_numeric($number) && intval($number) == $number) {
+        $number = intval($number);
+        if (isPrime($number)) {
+            echo "$number é um número primo.";
+        } else {
+            echo "$number não é um número primo.";
+        }
+    } else {
+        echo "Por favor, insira um número inteiro válido.";
+    }
 }
+?>
+
+<form action="" method="POST">
+    <input type="text" name="valor_numero" placeholder="Digite o número">
+    <input type="submit" value="verificar">
+</form>
+<?php
+echo "<strong>10) Calcule a soma dos números pares de 1 a 100.</strong>";
 echo "<br><br>";
-echo "<br><br>";
+$i = 1;
+$numbers = [];
+while($i <= 100){
+    if($i %2 == 0){
+        $numbers[] = $i;
+    }
+    $i++;
+
+}
+$result = array_sum($numbers);
+echo "A soma dos números pares de 1 a 100 é: " . $result;
+
+

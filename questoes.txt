@@ -1,13 +1,13 @@
-Imprima números de 1 a 10 usando for.
-Imprima números de 10 a 1 (decrescente) usando while.
-Imprima apenas números pares de 1 a 20 usando for.
-Imprima apenas números ímpares de 1 a 20 usando while.
-Calcule a soma de números de 1 a 50 e exiba o resultado.
-Calcule a média de 5 números fornecidos pelo usuário.
-Imprima a tabuada do 5 (de 1 a 10).
-Crie uma contagem regressiva de 10 a 0 e exiba "Lançar!" quando chegar a zero.
-Calcule o fatorial de um número (ex.: fatorial de 5 é 5 * 4 * 3 * 2 * 1).
-Verifique se um número é primo (divisível apenas por 1 e ele mesmo).
+ -> Imprima números de 1 a 10 usando for.
+ -> Imprima números de 10 a 1 (decrescente) usando while.
+ -> Imprima apenas números pares de 1 a 20 usando for.
+ -> Imprima apenas números ímpares de 1 a 20 usando while.
+ -> Calcule a soma de números de 1 a 50 e exiba o resultado.
+- > Calcule a média de 5 números fornecidos pelo usuário.
+-> Imprima a tabuada do 5 (de 1 a 10).
+-> Crie uma contagem regressiva de 10 a 0 e exiba "Lançar!" quando chegar a zero.
+-> Calcule o fatorial de um número (ex.: fatorial de 5 é 5 * 4 * 3 * 2 * 1).
+-> Verifique se um número é primo (divisível apenas por 1 e ele mesmo).
 Exercícios Intermediários
 Calcule a soma dos números pares de 1 a 100.
 Calcule a soma dos números ímpares de 1 a 100.
