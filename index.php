@@ -256,3 +256,25 @@ if (in_array("10", $numbers)) {
 }
 echo "<br><br>";
 echo "<strong>18) Inverta os elementos de um array e exiba o resultado.</strong>";
+echo "<br>";
+$numbers = [-1, -3, -5, -8, 10, 2, 9, -5, 10];
+$reversed = array_reverse($numbers);
+$normal = $numbers;
+echo "<br>";
+print_r($normal);
+echo "<br>";
+print_r($reversed);
+
+echo "<br><br>";
+echo "<strong>19) Remova números duplicados de um array:</strong>";
+echo "<br>";
+echo "<br>";
+$duplicated = [10,20,30,40,50,60,70,80,80,80,90,100];
+print_r($duplicated);
+echo "<br>";
+$result = array_unique($duplicated);
+print_r($result);
+
+echo "<br><br>";
+echo "<strong>20) Conte o número de vogais em uma string:</strong>";
+echo "<br>";
