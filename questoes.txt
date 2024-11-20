@@ -3,18 +3,18 @@
  -> Imprima apenas números pares de 1 a 20 usando for.
  -> Imprima apenas números ímpares de 1 a 20 usando while.
  -> Calcule a soma de números de 1 a 50 e exiba o resultado.
-- > Calcule a média de 5 números fornecidos pelo usuário.
+-> Calcule a média de 5 números fornecidos pelo usuário.
 -> Imprima a tabuada do 5 (de 1 a 10).
 -> Crie uma contagem regressiva de 10 a 0 e exiba "Lançar!" quando chegar a zero.
 -> Calcule o fatorial de um número (ex.: fatorial de 5 é 5 * 4 * 3 * 2 * 1).
 -> Verifique se um número é primo (divisível apenas por 1 e ele mesmo).
-Exercícios Intermediários
-Calcule a soma dos números pares de 1 a 100.
-Calcule a soma dos números ímpares de 1 a 100.
-Imprima os múltiplos de 3 de 1 a 50.
-Encontre o maior número em um array de números.
-Encontre o menor número em um array de números.
-Calcule a média de um array de números usando foreach.
+-> Exercícios Intermediários
+-> Calcule a soma dos números pares de 1 a 100.
+-> Calcule a soma dos números ímpares de 1 a 100.
+-> Imprima os múltiplos de 3 de 1 a 50.
+-> Encontre o maior número em um array de números.
+-> Encontre o menor número em um array de números.
+-> Calcule a média de um array de números usando foreach.
 Conte quantos elementos de um array são positivos e quantos são negativos.
 Verifique se um número existe em um array.
 Inverta os elementos de um array e exiba o resultado.

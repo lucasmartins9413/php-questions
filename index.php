@@ -155,5 +155,104 @@ while($i <= 100){
 }
 $result = array_sum($numbers);
 echo "A soma dos números pares de 1 a 100 é: " . $result;
+echo "<br><br>";
+echo "<strong>11) Calcule a soma dos números ímpares de 1 a 100.</strong>";
+echo "<br><br>";
+$i = 1;
+$numbersImpar = [];
+while($i <= 100){
+    if($i %2 == 1){
+        $numbersImpar[] = $i;
+    }
+    $i++;
+
+}
+$resultImpar = array_sum($numbersImpar);
+echo "A soma dos números ímpares de 1 a 100 é: " . $resultImpar;
+echo "<br><br>";
+
+echo "<strong>12) Imprima os múltiplos de 3 de 1 a 50:</strong>";
+echo "<br><br>";
+
+for($i = 0; $i <= 50; $i++){
+    if($i %3 == 0){
+        echo $i . ", ";
+    }
+}
 
 
+echo "<br><br>";
+echo "<strong>13) Encontre o maior número em um array de números:</strong>";
+echo "<br><br>";
+$arrayNumbers = [1,2,3,4,5,6,7,8,9,10,850];
+$maxValue = max($arrayNumbers);
+echo "O maior número é: " . $maxValue;
+echo "<br><br>";
+foreach($arrayNumbers as $arrayNumber){
+    echo $arrayNumber . ", ";
+}
+
+echo "<br><br>";
+echo "<strong>14) Encontre o menor número em um array de números:</strong>";
+echo "<br><br>";
+$arrayNumbersMin = [15,22,23,234,35,46,57,238,92,120,850];
+$maxValue = min($arrayNumbersMin);
+echo "O menor número é: " . $maxValue;
+echo "<br><br>";
+foreach($arrayNumbersMin as $arrayNumber){
+    echo $arrayNumber . ", ";
+}
+
+echo "<br><br>";
+echo "<strong>15) Calcule a média de um array de números usando foreach:</strong>";
+echo "<br><br>";
+
+$mediasArray = [10,20,20,30,40,45,60,240,90,120,850];
+
+echo "Números do array: ";
+foreach ($mediasArray as $index => $mediaArray) {
+    echo $mediaArray;
+    if ($index < count($mediasArray) - 1) {
+        echo " + ";
+    }
+}
+
+$resultado = array_sum($mediasArray) / count($mediasArray);
+echo "<br><br>";
+echo "Média: " . $resultado;
+echo "<br><br>";
+echo "Média: " . number_format($resultado, 2); 
+echo "<br><br>";
+echo "<br><br>";
+echo "<strong>16) Conte quantos elementos de um array são positivos e quantos são negativos:</strong>";
+echo "<br><br>";
+
+$arrayPlus = [-1, -3, -5, -8, 10, 2, 9, -5, 10];
+sort($arrayPlus);
+print_r($arrayPlus);
+echo "<br><br>";
+
+$positivos = count(array_filter($arrayPlus, function($num) {
+    return $num > 0;
+}));
+
+$negativos = count(array_filter($arrayPlus, function($num) {
+    return $num < 0;
+}));
+echo "Números positivos: $positivos<br>";
+echo "Números negativos: $negativos<br>";
+
+echo "<br><br>";
+
+
+echo "<strong>17) Verifique se um número existe em um array: </strong>";
+echo "<br><br>";
+$numbers = [-1, -3, -5, -8, 10, 2, 9, -5, 10];
+
+if (in_array("10", $numbers)) { 
+	echo "Tem o número 10";
+} else  { 
+    echo "Não tem o número 35";
+}
+echo "<br><br>";
+echo "<strong>18) Inverta os elementos de um array e exiba o resultado.</strong>";
